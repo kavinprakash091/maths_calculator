@@ -1,0 +1,151 @@
+#container {
+    height: 380px;
+    width: 500px;
+    background-color: aqua;
+    position: relative;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px darkblue;
+}
+
+#score {
+    background-color: yellow;
+    padding: 5px;
+    position: absolute;
+    left: 450px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 0px 0px red;
+}
+
+#correct {
+    background-color: green;
+    color: white;
+    padding: 7px;
+    position: absolute;
+    left: 200px;
+    border-radius: 7px;
+    display: none;
+}
+
+#wrong {
+    background-color: red;
+    color: white;
+    padding: 7px;
+    position: absolute;
+    left: 200px;
+    border-radius: 7px;
+    display: none;
+}
+
+#que {
+    height: 100px;
+    width: 400px;
+    background-color: darkviolet;
+    margin: 60px auto 10px auto;
+    text-align: center;
+    font-size: 80px;
+    font-family: cursive;
+    box-shadow: 0px 4px 0px 0px violet;
+}
+
+#ins {
+    background-color: violet;
+    height: 40px;
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    box-shadow: 0px 4px 0px 0px darkviolet;
+}
+
+#choices {
+    height: 100px;
+    width: 400px;
+    margin: 10px auto;
+    background-color: aqua
+}
+
+.c {
+    background-color: white;
+    height: 85px;
+    width: 85px;
+    float: left;
+    margin-right: 20px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    text-align: center;
+    line-height: 4;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+}
+
+.c:hover,
+#start:hover {
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 0px 4px 0px 0px violet;
+}
+
+.c:active,
+#start:active {
+    box-shadow: 0px 0px;
+    top: 4px;
+}
+
+#c4 {
+    margin-right: 0;
+}
+
+#start {
+    color: white;
+    background-color: hotpink;
+    width: 100px;
+    margin: 0px auto;
+    padding: 10px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+}
+
+#time {
+    top: 350px;
+    width: 170px;
+    padding: 10px;
+    margin-left: 320px;
+    position: absolute;
+    background-color: greenyellow;
+    box-shadow: 0px 4px 0px 0px darkgreen;
+    border-radius: 7px;
+    display: none;
+}
+
+#over {
+    top: 130px;
+    height: 180px;
+    width: 350px;
+    color: white;
+    left: 100px;
+    position: absolute;
+    background: linear-gradient(orange, orangered);
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 30px;
+    display: none;
+}
